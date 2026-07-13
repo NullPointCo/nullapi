@@ -1,0 +1,3 @@
+# NullAPI has zero third-party dependencies (Python 3.12 standard library only).
+# This file exists so Render/Fly/Docker build steps that run
+# `pip install -r requirements.txt` succeed cleanly.
