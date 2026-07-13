@@ -12,7 +12,7 @@ Part of the [NullPointerCo](https://github.com/NullPointCo) product line —
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/` | GET | Service info + endpoint map |
-| `/qr?text=hello` | GET | Generate a QR code as SVG |
+| `/qr?text=hello` | GET | Generate a QR code as PNG |
 | `/shorten?url=https://example.com` | GET | Create a short URL |
 | `/s/{id}` | GET | 302 redirect to the original URL |
 | `/api/v1/status` | GET | Service statistics (URLs shortened, total clicks) |

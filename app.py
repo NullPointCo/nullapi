@@ -62,7 +62,7 @@ class Handler(BaseHTTPRequestHandler):
             qr_data = generate_qr_svg(text, size)
             if qr_data:
                 self.send_response(200)
-                self.send_header('Content-Type', 'image/svg+xml')
+                self.send_header('Content-Type', 'image/png')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(qr_data)
